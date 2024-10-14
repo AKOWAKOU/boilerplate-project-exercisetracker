@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 const mongoURI = 'mongodb+srv://user:z2nNaq8BcLmKyAyZ@cluster0.4y4b0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster'
 
 // Connexion à MongoDB
-mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(mongoURI)
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 

@@ -7,3 +7,4 @@ npm install
 npm install express mongoose body-parser cors
 npm audit
 npm audit fix
+npm start   
